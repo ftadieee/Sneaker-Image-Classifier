@@ -5,7 +5,7 @@ Thank you :)
 
 
 This is a complete Vibe Coding Project so feel free to suggest any suggestion for improv or any advice :)
-
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Day 4: The Brain and the Vision 🧠 (Jan 6, 2026)
 Today was all about Vibe Coding—moving fast from a blank screen to a functional Deep Learning model. We focused on the architecture and intent, letting the AI orchestrate the complex code while we curated the data and directed the flow.
 

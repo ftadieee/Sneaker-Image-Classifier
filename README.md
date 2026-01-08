@@ -20,4 +20,5 @@ Model Checkpointing: Saved the first iteration of our intelligence as sneaker_cl
 The model is now learning to spot the minute differences between look-alike shoes:
 Midsole thickness (AF1 vs. Court Vision)
 Perforation patterns on the toe box
-Outsole height and stitching detail
+Outsole height and stitching detail.
+

@@ -6,19 +6,52 @@ Thank you :)
 
 This is a complete Vibe Coding Project so please feel free to suggest any suggestion for improv or any advice :)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Day 4: The Brain and the Vision 🧠 (Jan 6, 2026)
-Today was all about Vibe Coding—moving fast from a blank screen to a functional Deep Learning model. We focused on the architecture and intent, letting the AI orchestrate the complex code while we curated the data and directed the flow.
+👟 Sneaker Classifier AI Project
+📅 Progress Report: Ground Zero to Training
+Status: Phase 2 (Training) In Progress
 
-🚀 What We Accomplished Today:
-Infrastructure Setup: Initialized the project kitchen in Google Colab with TensorFlow and MobileNetV2.
-Data Scraped & Deep Cleaned: Built a custom scraper to pull 200+ images per silhouette. Performed a manual and automated "Data Purge" to ensure no "socks" or junk data corrupted the model's IQ.
-Brain Surgery (Transfer Learning): Leveraged the pre-trained weights of Google's MobileNetV2 to specialize in sneaker silhouettes.
-The Big Train: Successfully trained the model to distinguish between the Nike Air Force 1 and Nike Court Vision with a final validation accuracy of 86%.
-Model Checkpointing: Saved the first iteration of our intelligence as sneaker_classifier_v1.h5.
+🚀 Phase 1: Environment & Data Architecture
+Infrastructure Setup: Successfully migrated project operations to the E: Drive to optimize storage and maintain a clean system environment.
 
-👟 The Silhouette Challenge:
-The model is now learning to spot the minute differences between look-alike shoes:
-Midsole thickness (AF1 vs. Court Vision).
-Perforation patterns on the toe box.
-Outsole height and stitching detail.
+Environment Configuration: Created a dedicated Conda environment (sneakers) with Python and PyTorch integration.
 
+Secure Data Acquisition: * Developed a custom Python script (start_project.py) to bypass browser-based "Localhost" errors.
+
+Implemented OWASP-aligned sanitization to handle folder naming and input validation.
+
+Successfully scraped and organized 80+ high-quality images of four specific sneaker classes:
+
+Nike Air Force 1
+
+Nike Court Vision
+
+Adidas Superstar
+
+Puma Suede
+
+🧠 Phase 2: Model Training (Current Milestone)
+Hardware Acceleration: Configured the training pipeline to utilize the local NVIDIA RTX 3050 GPU via CUDA.
+
+Custom Training Engine: * Developed train_model.py using the fastai and PyTorch frameworks.
+
+Implemented a "Training from Scratch" approach to bypass corrupted pre-trained weight downloads and ensure local stability.
+
+Integrated Data Augmentation (flips, rotations, and zooms) to improve model generalization with a small dataset.
+
+Training Execution: Currently running 10 epochs of deep learning training.
+
+🛠️ Technical Stack
+Language: Python 3.x
+
+Libraries: PyTorch, Fastai, Torchvision
+
+Storage: 500GB E: Drive Partition
+
+Hardware: NVIDIA GeForce RTX 3050 Laptop GPU
+
+⏭️ Next Steps
+Verify the generation of the sneaker_model.pkl "Brain" file.
+
+Deploy the model using Gradio (Anti-Gravity) for a web-based user interface.
+
+Test the AI with real-world sneaker photos.

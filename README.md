@@ -6,20 +6,16 @@ Thank you :)
 
 This is a complete Vibe Coding Project so please feel free to suggest any suggestion for improv or any advice :)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-👟 Sneaker Classifier AI Project
-📅 Progress Report: Ground Zero to Training
-Status: Phase 2 (Training) In Progress
+👟 Sneaker Classifier AI (Ground Zero)
+A localized deep learning project built on Python, PyTorch, and fastai, utilizing an NVIDIA RTX 3050 for training and Gradio for deployment.
 
-🚀 Phase 1: Environment & Data Architecture
-Infrastructure Setup: Successfully migrated project operations to the E: Drive to optimize storage and maintain a clean system environment.
+📊 Project Milestones
+1. Environment & Data Architecture
+Hardware Localization: Project established on a dedicated secondary partition (E:\Sneaker_AI) to maintain system performance and storage efficiency.
 
-Environment Configuration: Created a dedicated Conda environment (sneakers) with Python and PyTorch integration.
+Conda Environment: Configured a isolated sneakers environment with CUDA support for GPU acceleration.
 
-Secure Data Acquisition: * Developed a custom Python script (start_project.py) to bypass browser-based "Localhost" errors.
-
-Implemented OWASP-aligned sanitization to handle folder naming and input validation.
-
-Successfully scraped and organized 80+ high-quality images of four specific sneaker classes:
+Scraping Engine: Developed a robust image scraper to bypass browser limitations, successfully gathering a dataset of:
 
 Nike Air Force 1
 
@@ -29,29 +25,37 @@ Adidas Superstar
 
 Puma Suede
 
-🧠 Phase 2: Model Training (Current Milestone)
-Hardware Acceleration: Configured the training pipeline to utilize the local NVIDIA RTX 3050 GPU via CUDA.
+2. Secure Data Pipeline
+OWASP Alignment: Implemented strict input validation to ensure only valid image formats (.jpg, .png) are processed.
 
-Custom Training Engine: * Developed train_model.py using the fastai and PyTorch frameworks.
+Sanitization: Automated folder and file naming to prevent path injection and maintain "Ground Zero" cleanliness.
 
-Implemented a "Training from Scratch" approach to bypass corrupted pre-trained weight downloads and ensure local stability.
+Data Augmentation: Applied random flips, rotations, and zooms during the loading phase to maximize model accuracy from a small initial dataset.
 
-Integrated Data Augmentation (flips, rotations, and zooms) to improve model generalization with a small dataset.
+3. Model Training (RTX 3050)
+Architecture: Utilized the ResNet34 Convolutional Neural Network (CNN).
 
-Training Execution: Currently running 10 epochs of deep learning training.
+Local Optimization: Executed a 10-epoch "training from scratch" cycle to ensure stability on the laptop GPU and avoid corrupted external weight downloads.
 
-🛠️ Technical Stack
-Language: Python 3.x
+Result: Generated a high-performance model export file: sneaker_model.pkl.
 
-Libraries: PyTorch, Fastai, Torchvision
+4. Deployment (Anti-Gravity Interface)
+Web UI: Developed a "Drag & Drop" interface using Gradio for real-time inference.
 
-Storage: 500GB E: Drive Partition
+Stable Inference Mode: Configured the application to run inference on the CPU to ensure 100% web-server stability and prevent GPU timeouts.
 
-Hardware: NVIDIA GeForce RTX 3050 Laptop GPU
+Verified Performance: Successfully classified unseen sneaker images with real-time confidence scoring.
 
-⏭️ Next Steps
-Verify the generation of the sneaker_model.pkl "Brain" file.
+🛡️ Security & Constraints
+Validation: All public-facing functions include schema-based type checks and input sanitization.
 
-Deploy the model using Gradio (Anti-Gravity) for a web-based user interface.
+Hardware: NVIDIA GeForce RTX 3050 (Laptop GPU).
 
-Test the AI with real-world sneaker photos.
+Environment: Localhost deployment only.
+
+🚀 How to Run
+conda activate sneakers
+
+python app.py
+
+Navigate to http://127.0.0.1:7860 in your web browser.

@@ -6,4 +6,32 @@ Thank you :)
 
 This is a complete Vibe Coding Project so please feel free to suggest any suggestion for improv or any advice :)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-📅 PHASE 1: Data Collection & AI FoundationGoal: Create a script to fetch images and train a "Brain" (Model).Action: Developed start_project.py using bing-image-downloader.Action: Developed train_model.py using the FastAI library and ResNet50 architecture.Security: Implemented a sanitize() function to ensure folder names are safe and standardized.Result: Created sneaker_model.pkl.📅 PHASE 2: Testing via GradioGoal: Create a simple UI to verify if the model works.Action: Built a single-page interface using Gradio.Observation: The model showed a heavy bias toward Nike. It was "hallucinating"—labeling Pumas as Nikes because the Nike dataset was larger and more varied.📅 PHASE 3: Migration to Flask (Web Architecture)Goal: Move from a testing script to a professional multi-page website (Option B).Action: Created a directory structure with templates/ and static/ folders.Action: Developed app.py (the Flask server), index.html (Home), and scanner.html (AI interface).Security Implementation: 1.  Strict Input Validation: The web app now rejects non-image files.2.  Secure File Handling: Added secure_filename to prevent hackers from trying to name files in a way that breaks the server.3.  Pathing: Corrected "Template Not Found" errors by explicitly mapping the E: drive paths.📅 PHASE 4: Accuracy Tuning (Present Status)Goal: Eliminate the "Nike Hallucination" and balance the model.Current Task: Wiping the old dataset (20 images per shoe) and replacing it with a balanced set (100 images per shoe).Environment Fix: Resolved the "No module named Flask/Bing" errors by re-installing dependencies on the E: drive.Strategic Change: Increasing training duration from 3 to 10 epochs to help the AI distinguish subtle features like the Puma Formstrip vs. the Nike Swoosh.🛡️ OWASP & Security Compliance CheckRuleStatusImplementationInput Validation✅ PASSSchema-based checks in scanner.html and app.py.Secure API Keys✅ PASSNo hardcoded keys; environment-safe logic.Sanitization✅ PASSFilenames and folder names cleaned via Regex.Rate Limiting🟡 PENDINGPlanned for next deployment phase.🚀 Immediate Next StepsFinish Download: Complete the python start_project.py (LIMIT 100).Heavy Training: Run python train_model.py (10 Epochs).Visualization: Use results.py to generate a Confusion Matrix to prove the Puma fix.
+📅 PHASE 1: The Birth of the Model
+Initial Setup: Created the core scripts start_project.py and train_model.py.
+
+Technology: FastAI (Deep Learning) using the ResNet50 neural network architecture.
+
+The Problem: Started with a small test set (20 images/shoe). This caused the model to over-simplify and guess "Nike" for almost everything.
+
+📅 PHASE 2: UI Evolution (Gradio to Flask)
+Gradio Era: Built a quick-test interface. It worked but lacked professional features.
+
+The Flask Migration: Based on the "Option B" decision, moved to a full web server architecture.
+
+Directory Revamp: Created templates/ and static/ to house the website's HTML/CSS.
+
+Security: Implemented Strict Input Validation and Secure Filename sanitization to protect the server from malicious uploads.
+
+📅 PHASE 3: Environment & Path Troubleshooting
+Drive Jump: Migrated the entire project to the E: drive to manage space and organization.
+
+Dependency Fix: Resolved "Module Not Found" errors for flask and bing-image-downloader by correctly configuring the Anaconda environment on the new drive.
+
+Path Correction: Solved the TemplateNotFound error by explicitly pointing Flask to the templates folder via the app.py configuration.
+
+📅 PHASE 4: Data Engineering (Current)
+Reset: Deleted the biased 20-image datasets.
+
+Expansion: Currently running start_project.py with LIMIT = 100.
+
+Next Action: Re-training the model for 10 Epochs with advanced data augmentation (rotation and lighting) to ensure the AI recognizes the Puma Formstrip.

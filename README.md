@@ -6,32 +6,60 @@ Thank you :)
 
 This is a complete Vibe Coding Project so please feel free to suggest any suggestion for improv or any advice :)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-📅 PHASE 1: The Birth of the Model
-Initial Setup: Created the core scripts start_project.py and train_model.py.
+This is the complete, master GIT_README for your repository. It covers every step we’ve taken—from the initial "Nike Bias" to the current E: Drive expansion and the professional PRD standards we've set.
 
-Technology: FastAI (Deep Learning) using the ResNet50 neural network architecture.
+👟 SNEAKER_AI: Full Project Documentation
+Developer: raspberries (Internal ID)
 
-The Problem: Started with a small test set (20 images/shoe). This caused the model to over-simplify and guess "Nike" for almost everything.
+Environment: E:\Sneaker_AI
 
-📅 PHASE 2: UI Evolution (Gradio to Flask)
-Gradio Era: Built a quick-test interface. It worked but lacked professional features.
+Architecture: Flask + FastAI (ResNet50)
 
-The Flask Migration: Based on the "Option B" decision, moved to a full web server architecture.
+📖 1. Project Overview & PRD Goals
+The Sneaker Hunter AI is designed to solve the "Silhouettes Identification Problem." Our primary objective is to create a high-accuracy classifier that can distinguish between visually similar sneakers (like Nike AF1 vs. Nike Court Vision) and competing brands (Nike vs. Puma).
 
-Directory Revamp: Created templates/ and static/ to house the website's HTML/CSS.
+Core Aim: * Eliminate "Nike Hallucinations."
 
-Security: Implemented Strict Input Validation and Secure Filename sanitization to protect the server from malicious uploads.
+Achieve 90%+ accuracy through balanced datasets.
 
-📅 PHASE 3: Environment & Path Troubleshooting
-Drive Jump: Migrated the entire project to the E: drive to manage space and organization.
+Provide a secure, web-based tool for sneaker verification.
 
-Dependency Fix: Resolved "Module Not Found" errors for flask and bing-image-downloader by correctly configuring the Anaconda environment on the new drive.
+🛠️ 2. Development Phases (The Journey)
+Phase 1: The Prototype (C: Drive)
+Action: Built start_project.py and train_model.py.
 
-Path Correction: Solved the TemplateNotFound error by explicitly pointing Flask to the templates folder via the app.py configuration.
+Issue: Used only 20 images per class. The model became "lazy" and guessed "Nike" for almost everything because the data was too small.
 
-📅 PHASE 4: Data Engineering (Current)
-Reset: Deleted the biased 20-image datasets.
+Phase 2: Professional Web Migration (Flask)
+Action: Moved from a single-window script to a full web architecture.
 
-Expansion: Currently running start_project.py with LIMIT = 100.
+Structure: * /templates: index.html, scanner.html
 
-Next Action: Re-training the model for 10 Epochs with advanced data augmentation (rotation and lighting) to ensure the AI recognizes the Puma Formstrip.
+/static: style.css, uploads/
+
+Security: Integrated Strict Input Validation and secure_filename to block malicious files.
+
+Phase 3: Drive Migration & Dependency Fixes
+Action: Moved the entire project to the E: Drive.
+
+Fixes: Re-installed flask and bing-image-downloader in the local environment.
+
+Pathing: Updated app.py to explicitly locate the templates folder on the new drive path.
+
+Phase 4: Data Engineering (Current) 🏗️
+Status: Wiping the biased 20-image dataset.
+
+Action: Running start_project.py with LIMIT = 100 to create a 400-image "Power Dataset."
+
+Strategy: Implementing 10-Epoch training and advanced rotation/lighting transforms to help the AI detect the Puma Formstrip logo.
+
+🛡️ 3. Security & Compliance (User Mandates)
+This project strictly adheres to the following security principles:
+
+Input Sanitization: Every file name is scrubbed of illegal characters before being stored.
+
+Path Security: No hardcoded paths; the system uses dynamic os.path joining.
+
+API Integrity: No keys exposed; all external downloads are managed via protected scripts.
+
+Graceful Handling: Added logic to handle 404/500 errors if a template is missing.

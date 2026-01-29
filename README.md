@@ -54,7 +54,7 @@ Action: Running start_project.py with LIMIT = 100 to create a 400-image "Power D
 Strategy: Implementing 10-Epoch training and advanced rotation/lighting transforms to help the AI detect the Puma Formstrip logo.
 
 🛡️ 3. Security & Compliance (User Mandates)
-This project strictly adheres to the following security principles:
+This project strictly adheres to the following security principles which are:
 
 Input Sanitization: Every file name is scrubbed of illegal characters before being stored.
 

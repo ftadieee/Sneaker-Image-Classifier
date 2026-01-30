@@ -22,7 +22,7 @@ Core Aim: * Eliminate "Nike Hallucinations."
 
 Achieve 90%+ accuracy through balanced datasets.
 
-Provide a secure, web-based tool for sneaker verification.
+Provide a secure, web-based tool for sneaker verification app.
 
 🛠️ 2. Development Phases (The Journey)
 Phase 1: The Prototype (C: Drive)

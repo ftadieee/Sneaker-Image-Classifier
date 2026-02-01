@@ -1,65 +1,75 @@
-# Sneaker-Image-Classifier
-This is a small project tried and experimented on Google Colab. It has different images for 3 brands which are Nike, Adidas &amp; Puma. 
-(Note : The file gets updated every Sunday as more images are being added to the training dataset for much accurate predictions
-Thank you :)
+# 👟 Sneaker Image Classifier (VibeCoded)
 
+![Sneaker Classifier Header](C:/Users/adity/.gemini/antigravity/brain/9a0059ce-944b-43c9-acd7-547a7bdb8376/sneaker_classifier_mockup_1769934402635.png)
 
-This is a complete Vibe Coding Project so please feel free to suggest any suggestion for improv or any advice :)
-_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-This is the complete, master GIT_README for your repository. It covers every step we’ve taken—from the initial "Nike Bias" to the current E: Drive expansion and the professional PRD standards we've set.
+## 🚀 Overview
+**Sneaker Image Classifier** is a deep learning project built using **TensorFlow** and **Keras** to identify and classify sneaker brands from images. The current version is optimized to recognize major brands: **Nike**, **Adidas**, and **Puma**.
 
-👟 SNEAKER_AI: Full Project Documentation
-Developer: raspberries (Internal ID)
+This project was developed with a "VibeCoded" approach—combining powerful AI logic with a focus on ease of use and modern aesthetics.
 
-Environment: E:\Sneaker_AI
+---
 
-Architecture: Flask + FastAI (ResNet50)
+## ✨ Features
+- **Multi-Brand Recognition**: Accurately classifies shoes into Nike, Adidas, or Puma categories.
+- **Data Augmentation**: Uses smart image preprocessing (flipping, rotation) to improve accuracy even with small datasets.
+- **Interactive Testing**: Features a built-in upload prompt to test the model on your own sneaker photos instantly.
+- **Confidence Scoring**: Displays a percentage confidence level for every prediction.
 
-📖 1. Project Overview & PRD Goals
-The Sneaker Hunter AI is designed to solve the "Silhouettes Identification Problem." Our primary objective is to create a high-accuracy classifier that can distinguish between visually similar sneakers (like Nike AF1 vs. Nike Court Vision) and competing brands (Nike vs. Puma).
+---
 
-Core Aim: * Eliminate "Nike Hallucinations."
+## 🛠️ Tech Stack
+- **Core Framework**: TensorFlow 2.x & Keras
+- **Environment**: Google Colab (with T4 GPU support)
+- **Programming Language**: Python 3
+- **Libraries**:
+    - `NumPy`: For numerical operations
+    - `OS`: For file and folder management
+    - `Matplotlib`: For data visualization (potential feature)
 
-Achieve 90%+ accuracy through balanced datasets.
+---
 
-Provide a secure, web-based tool for sneaker verification app.
+## 🏗️ How it Works
+The classifier follows a robust Convolutional Neural Network (CNN) pipeline:
+1.  **Folder Setup**: Automatically organizes your training data into brand-specific subdirectories.
+2.  **Preprocessing**: Rescales images to $224 \times 224$ and normalizes pixel values.
+3.  **Model Architecture**:
+    - **Convolutional Layers**: Extracts features like textures, stitching, and brand logos.
+    - **Pooling Layers**: Reduces dimensionality while preserving key patterns.
+    - **Dense Layers**: Performs the final classification using Softmax activation.
+4.  **Training**: Runs for 10 epochs with the Adam optimizer for fast and stable convergence.
 
-🛠️ 2. Development Phases (The Journey)
-Phase 1: The Prototype (C: Drive)
-Action: Built start_project.py and train_model.py.
+---
 
-Issue: Used only 20 images per class. The model became "lazy" and guessed "Nike" for almost everything because the data was too small.
+## 🚦 Getting Started
 
-Phase 2: Professional Web Migration (Flask)
-Action: Moved from a single-window script to a full web architecture.
+### Prerequisites
+- A Google Account (to use Google Colab) or a local Python environment with GPU support.
 
-Structure: * /templates: index.html, scanner.html
+### Running the Project
+1.  Open the `sneaker_project_final_version.ipynb` file in **Google Colab**.
+2.  Enable GPU Acceleration: `Runtime` > `Change runtime type` > `GPU`.
+3.  Run the first cell. It will prompt you to:
+    - Upload **Nike** images.
+    - Upload **Adidas** images.
+    - Upload **Puma** images.
+4.  Once trained, use the final cell to upload a "mystery" sneaker image and see the model in action!
 
-/static: style.css, uploads/
+---
 
-Security: Integrated Strict Input Validation and secure_filename to block malicious files.
+## 📊 Results & Future Scope
+- **Current Performance**: Reaches stable accuracy within 10 epochs.
+- **Roadmap**:
+    - [ ] Support for more brands (Jordan, Converse, New Balance).
+    - [ ] Real-time classification via webcam.
+    - [ ] Mobile app integration.
 
-Phase 3: Drive Migration & Dependency Fixes
-Action: Moved the entire project to the E: Drive.
+---
 
-Fixes: Re-installed flask and bing-image-downloader in the local environment.
+## 🤝 Contributing
+Contributions are welcome! If you have ideas to improve the model architecture or want to add support for new brands, feel free to fork the repo and submit a PR.
 
-Pathing: Updated app.py to explicitly locate the templates folder on the new drive path.
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
 
-Phase 4: Data Engineering (Current) 🏗️
-Status: Wiping the biased 20-image dataset.
-
-Action: Running start_project.py with LIMIT = 100 to create a 400-image "Power Dataset."
-
-Strategy: Implementing 10-Epoch training and advanced rotation/lighting transforms to help the AI detect the Puma Formstrip logo.
-
-🛡️ 3. Security & Compliance (User Mandates)
-This project strictly adheres to the following security principles which are:
-
-Input Sanitization: Every file name is scrubbed of illegal characters before being stored.
-
-Path Security: No hardcoded paths; the system uses dynamic os.path joining.
-
-API Integrity: No keys exposed; all external downloads are managed via protected scripts.
-
-Graceful Handling: Added logic to handle 404/500 errors if a template is missing.
+---
+*Created with ❤️ by ftadieee*

@@ -66,7 +66,7 @@ The classifier follows a robust Convolutional Neural Network (CNN) pipeline:
 ---
 
 ## 🤝 Contributing
-Contributions are welcome! If you have ideas to improve the model architecture or want to add support for new brands, feel free to fork the repo and submit a PR.
+Contributions are all welcome! If you have ideas to improve the model architecture or want to add support for new brands, feel free to fork the repo and submit a PR.
 
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).

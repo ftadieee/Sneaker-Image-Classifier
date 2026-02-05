@@ -1,0 +1,278 @@
+{
+    "nike_af1": {
+        "id": "nike_af1",
+        "name": "Nike Air Force 1 '07",
+        "brand": "Nike",
+        "category": "Lifestyle / Basketball Heritage",
+        "release_year": 1982,
+        "colorway": "White/White",
+        "description": "The radiance lives on in the Nike Air Force 1 '07. This iconic basketball sneaker features a full leather upper that's easy to clean and looks premium, with stitched overlays for durability and support.",
+        "history": "Designed by Bruce Kilgore in 1982, the Air Force 1 was the first basketball shoe to feature Nike Air technology. Named after the aircraft that carries the U.S. President, the AF1 revolutionized both basketball and street fashion. It became a hip-hop culture icon in the 1980s and remains one of Nike's best-selling sneakers 40+ years later.",
+        "retail_price_inr": 8995,
+        "price_history": [
+            {
+                "month": "Sep 2025",
+                "price": 8695
+            },
+            {
+                "month": "Oct 2025",
+                "price": 8795
+            },
+            {
+                "month": "Nov 2025",
+                "price": 8995
+            },
+            {
+                "month": "Dec 2025",
+                "price": 9295
+            },
+            {
+                "month": "Jan 2026",
+                "price": 8995
+            },
+            {
+                "month": "Feb 2026",
+                "price": 8995
+            }
+        ],
+        "resellers": [
+            {
+                "name": "VegNonVeg",
+                "url": "https://www.vegnonveg.com/nike-air-force-1",
+                "logo": "🛒"
+            },
+            {
+                "name": "Superkicks",
+                "url": "https://superkicks.in/nike-air-force-1",
+                "logo": "👟"
+            },
+            {
+                "name": "Nike India",
+                "url": "https://www.nike.com/in/air-force-1",
+                "logo": "✓"
+            },
+            {
+                "name": "Capsule Shop",
+                "url": "https://capsuleshop.in/nike-af1",
+                "logo": "💊"
+            }
+        ],
+        "similar_models": [
+            "nike_court_vision"
+        ],
+        "tags": [
+            "classic",
+            "white",
+            "leather",
+            "basketball",
+            "streetwear"
+        ]
+    },
+    "nike_court_vision": {
+        "id": "nike_court_vision",
+        "name": "Nike Court Vision Low",
+        "brand": "Nike",
+        "category": "Lifestyle / Basketball Inspired",
+        "release_year": 2019,
+        "colorway": "White/Black",
+        "description": "The Nike Court Vision Low brings clean, classic style inspired by the iconic AF1. With its durable leather upper and retro basketball DNA, it offers timeless style at an accessible price point.",
+        "history": "Launched in 2019, the Court Vision was designed as a more affordable alternative to the Air Force 1. While it shares the same basketball-inspired silhouette, it features a slimmer profile and different sole pattern. The shoe quickly gained popularity among budget-conscious sneakerheads who love the AF1 aesthetic.",
+        "retail_price_inr": 5695,
+        "price_history": [
+            {
+                "month": "Sep 2025",
+                "price": 5295
+            },
+            {
+                "month": "Oct 2025",
+                "price": 5495
+            },
+            {
+                "month": "Nov 2025",
+                "price": 5695
+            },
+            {
+                "month": "Dec 2025",
+                "price": 5695
+            },
+            {
+                "month": "Jan 2026",
+                "price": 5495
+            },
+            {
+                "month": "Feb 2026",
+                "price": 5695
+            }
+        ],
+        "resellers": [
+            {
+                "name": "VegNonVeg",
+                "url": "https://www.vegnonveg.com/nike-court-vision",
+                "logo": "🛒"
+            },
+            {
+                "name": "Superkicks",
+                "url": "https://superkicks.in/nike-court-vision",
+                "logo": "👟"
+            },
+            {
+                "name": "Nike India",
+                "url": "https://www.nike.com/in/court-vision",
+                "logo": "✓"
+            },
+            {
+                "name": "Amazon India",
+                "url": "https://amazon.in/nike-court-vision",
+                "logo": "📦"
+            }
+        ],
+        "similar_models": [
+            "nike_af1"
+        ],
+        "tags": [
+            "budget",
+            "white",
+            "leather",
+            "basketball",
+            "everyday"
+        ]
+    },
+    "adidas_superstar": {
+        "id": "adidas_superstar",
+        "name": "Adidas Superstar",
+        "brand": "Adidas",
+        "category": "Lifestyle / Shell Toe Classic",
+        "release_year": 1969,
+        "colorway": "White/Black",
+        "description": "The Adidas Superstar features the iconic shell toe design, premium leather upper, and the signature 3-Stripes. Originally built for basketball courts, it became a cultural phenomenon in hip-hop and fashion.",
+        "history": "Born on the basketball courts in 1969, the Superstar was the first low-top basketball shoe. In 1986, Run-DMC released 'My Adidas' and wore Superstars on stage without laces, igniting a fashion revolution. This led to the first-ever sneaker endorsement deal between a hip-hop group and a shoe company, changing sneaker culture forever.",
+        "retail_price_inr": 8999,
+        "price_history": [
+            {
+                "month": "Sep 2025",
+                "price": 8499
+            },
+            {
+                "month": "Oct 2025",
+                "price": 8999
+            },
+            {
+                "month": "Nov 2025",
+                "price": 8999
+            },
+            {
+                "month": "Dec 2025",
+                "price": 9299
+            },
+            {
+                "month": "Jan 2026",
+                "price": 8999
+            },
+            {
+                "month": "Feb 2026",
+                "price": 8999
+            }
+        ],
+        "resellers": [
+            {
+                "name": "VegNonVeg",
+                "url": "https://www.vegnonveg.com/adidas-superstar",
+                "logo": "🛒"
+            },
+            {
+                "name": "Superkicks",
+                "url": "https://superkicks.in/adidas-superstar",
+                "logo": "👟"
+            },
+            {
+                "name": "Adidas India",
+                "url": "https://www.adidas.co.in/superstar",
+                "logo": "⚡"
+            },
+            {
+                "name": "Capsule Shop",
+                "url": "https://capsuleshop.in/adidas-superstar",
+                "logo": "💊"
+            }
+        ],
+        "similar_models": [
+            "puma_suede"
+        ],
+        "tags": [
+            "shell-toe",
+            "classic",
+            "hip-hop",
+            "leather",
+            "3-stripes"
+        ]
+    },
+    "puma_suede": {
+        "id": "puma_suede",
+        "name": "Puma Suede Classic XXI",
+        "brand": "Puma",
+        "category": "Lifestyle / Suede Classic",
+        "release_year": 1968,
+        "colorway": "Black/White",
+        "description": "The Puma Suede is an iconic sneaker with a rich suede upper and the signature Formstrip. Known for its versatility and timeless style, it's been a staple in streetwear and hip-hop culture for over 50 years.",
+        "history": "Introduced in 1968, the Puma Suede was originally designed for training. Tommie Smith wore them during his famous Black Power salute at the 1968 Mexico Olympics, forever linking the shoe to cultural activism. In the 1980s, the Suede became integral to breakdancing and hip-hop culture in New York City.",
+        "retail_price_inr": 6999,
+        "price_history": [
+            {
+                "month": "Sep 2025",
+                "price": 6499
+            },
+            {
+                "month": "Oct 2025",
+                "price": 6799
+            },
+            {
+                "month": "Nov 2025",
+                "price": 6999
+            },
+            {
+                "month": "Dec 2025",
+                "price": 7299
+            },
+            {
+                "month": "Jan 2026",
+                "price": 6999
+            },
+            {
+                "month": "Feb 2026",
+                "price": 6999
+            }
+        ],
+        "resellers": [
+            {
+                "name": "VegNonVeg",
+                "url": "https://www.vegnonveg.com/puma-suede",
+                "logo": "🛒"
+            },
+            {
+                "name": "Superkicks",
+                "url": "https://superkicks.in/puma-suede",
+                "logo": "👟"
+            },
+            {
+                "name": "Puma India",
+                "url": "https://in.puma.com/suede-classic",
+                "logo": "🐆"
+            },
+            {
+                "name": "Flipkart",
+                "url": "https://flipkart.com/puma-suede",
+                "logo": "🛍️"
+            }
+        ],
+        "similar_models": [
+            "adidas_superstar"
+        ],
+        "tags": [
+            "suede",
+            "classic",
+            "b-boy",
+            "formstrip",
+            "culture"
+        ]
+    }
+}
